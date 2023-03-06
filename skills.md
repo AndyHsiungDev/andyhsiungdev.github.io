@@ -13,7 +13,7 @@ nav_order: 2
 
 **Frontend:** Angular/React/Javascript/Typescript/HTML/CSS
 
-**Deployment tools:** Docker/Kubernetes/AWS Lambdas, RDS, SQS, SES, etc
+**Tools:** Docker/Kubernetes/AWS Services (Lambdas, RDS, SES, SQS, etc)
 
 **Monitoring and logging:** EFK (elastic search/fluentd/kibana), Grafana, Prometheus, New Relic, Sentry
 
