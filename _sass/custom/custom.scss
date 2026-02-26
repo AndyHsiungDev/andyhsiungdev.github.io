@@ -1,0 +1,65 @@
+// Blog listing page styles
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-list-item {
+  padding: $sp-6 0;
+  border-bottom: 1px solid $border-color;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: $sp-2;
+  }
+}
+
+.post-list-meta {
+  font-size: $font-size-2;
+  color: $grey-dk-000;
+  margin-bottom: $sp-3;
+}
+
+.post-list-excerpt {
+  color: $grey-dk-000;
+  margin-bottom: 0;
+}
+
+// Blog post page styles
+.post {
+  .post-header {
+    margin-bottom: $sp-8;
+    padding-bottom: $sp-4;
+    border-bottom: 1px solid $border-color;
+  }
+
+  .post-title {
+    margin-bottom: $sp-2;
+  }
+
+  .post-meta {
+    font-size: $font-size-2;
+    color: $grey-dk-000;
+  }
+
+  .post-content {
+    margin-bottom: $sp-8;
+  }
+
+  .post-navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-top: $sp-6;
+    border-top: 1px solid $border-color;
+    font-size: $font-size-2;
+  }
+
+  .post-nav-next {
+    margin-left: auto;
+  }
+}
