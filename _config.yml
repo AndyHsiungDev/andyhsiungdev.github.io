@@ -3,3 +3,12 @@ description: ars longa, vita brevis
 theme: just-the-docs
 
 url: https://andyhsiungdev.github.io
+
+permalink: /blog/:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
